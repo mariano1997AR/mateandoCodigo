@@ -2,6 +2,9 @@ import './Inicio.css';
 import { useState, useEffect, useRef } from 'react';
 import { Title, Meta } from 'react-head';
 import excelLogo from '../../assets/brands/excel-logo-400x400.webp';
+import pandasLogo from '../../assets/brands/pandas-logo.webp';
+import powerbilogo from '../../assets/brands/power-bi-logo.webp';
+import jupyterLogo from '../../assets/brands/jupyter-seeklogo.webp';
 import { Contacto } from '../Contacto/Contacto';
 
 const frases = [
@@ -15,7 +18,10 @@ const frases = [
 ]
 const brands = [
 
-    excelLogo
+    excelLogo,
+    pandasLogo,
+    powerbilogo,
+    jupyterLogo
 
 ]
 
@@ -541,7 +547,7 @@ l-549 -551 -216 214 c-146 145 -230 220 -261 234 -241 115 -509 -49 -512 -313
                 <section className='carousel-container-brand'>
                     <section className='carousel-track' ref={carouselRef}>
                         {[...brands, ...brands].map((brand, index) => (
-                            <img key={index} src={brand} alt='Brand Logo' className='brand-logo' />
+                            <img key={index} src={brand} alt='Brand Logo' className='brand-logo' loading='lazy' />
                         ))}
                     </section>
                 </section>
