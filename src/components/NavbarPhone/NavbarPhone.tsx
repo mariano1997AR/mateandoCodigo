@@ -10,7 +10,7 @@ export const NavbarPhone = () => {
                 <section className='logo-responsive '>
 
                     <Link className="a-logo mx-5 py-2 " to="/inicio">
-                        Mateando<span className='logo-oscuro'> Código</span>
+                        Mateando<span className='etiqueta-codigo'> Código</span>
                     </Link>
                     {/* svg-logo */}
 

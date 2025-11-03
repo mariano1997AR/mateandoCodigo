@@ -1,6 +1,6 @@
 .menu-container {
     position: relative;
-
+  
     padding: 0.5rem;
 
 }
@@ -141,3 +141,8 @@
 
 
 }
+
+.etiqueta-codigo{
+    color: #043915;
+}
+

@@ -82,7 +82,7 @@ export const Inicio = () => {
 
                 <section>
                     <section className='desaparecer-pc aparecer-phone'>
-                        <h1 className='text-center oscuro-logo py-2 mx-2'>Bienvenidos  </h1>
+                        <h1 className='text-center py-2 mx-2 titulo-version-mobile'>Bienvenidos  </h1>
                         <p className="text-center parrafo-presentacion-phone ">
                             <strong> {fraseActual}</strong>
                         </p>
