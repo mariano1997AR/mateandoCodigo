@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.
 9">
    <url>
-     <loc>https://mateandocodigo.com/</loc>
+     <loc>https://mateando-codigo.vercel.app/</loc>
      <lastmod>2024-06-10T12:00:00+00:00</lastmod>
      <priority>1.00</priority>
    </url>
    <url>
-     <loc>https://mateandocodigo.com/inicio</loc>
+     <loc>https://mateando-codigo.vercel.app/inicio</loc>
      <lastmod>2024-06-08T12:00:00+00:00</lastmod>
      <priority>0.80</priority>
    </url>
