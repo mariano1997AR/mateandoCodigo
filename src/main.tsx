@@ -4,6 +4,7 @@ import './index.css'
 import { Inicio } from './pages/Inicio/Inicio.tsx'
 import {HeadProvider} from 'react-head';
 import { Layout } from './components/Layout/Layout.tsx';
+import { TerminosCondiciones } from './pages/TerminosCondiciones/TerminosCondiciones.tsx';
 
 const router = createBrowserRouter([
  {
@@ -14,7 +15,11 @@ const router = createBrowserRouter([
         {path:'inicio', element:<Inicio /> },
     ]
 
- }
+ },
+ {
+   path:'terminos-y-condiciones',
+   element:<TerminosCondiciones />
+ },
 ],{
     basename: '/'
 }

@@ -18,7 +18,7 @@ export const FooterPage = ()=>{
                         <article className='columna-redes-sociales'>
                             <ul >
                                 <li className='subtitulo-footer'><b>Nuestra politicas</b></li>
-                                <li><Link to='/terminos-condiciones' className="link" >Terminos y condiciones</Link></li>
+                                <li><Link to='/terminos-y-condiciones' className="link" >Terminos y condiciones</Link></li>
                                 <li><a href="#principal">Inicio</a></li>
                                 <li><a href="#contacto">Contacto</a></li>
                             </ul>
@@ -40,7 +40,7 @@ export const FooterPage = ()=>{
                 <section className="container-footer-dispositivos">
                     <header className="logo-dispositivo">Mateando<span className='etiqueta-codigo'> Código</span> ™</header>
                     <ul className={` submenu-footer-dispositivo `}>
-                        <li><Link to='/terminos-condiciones'   > Términos y Condiciones</Link></li>
+                        <li><Link to='/terminos-y-condiciones' > Términos y Condiciones</Link></li>
                         <li><a target='_blank' className='link' href="https://wa.me/5491133550437?text=Hola,%20quiero%20hablar%20contigo">Whatsapp</a></li>
                         <li><a target="_blank" href="https://www.linkedin.com/company/tensiora-automatic/?viewAsMember=true">Linkedln</a></li>
 
