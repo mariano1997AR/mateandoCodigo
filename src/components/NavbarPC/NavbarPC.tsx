@@ -1,6 +1,6 @@
 import './NavbarPC.css'
 import { Link } from 'react-router-dom';
-import fotoInicio from '../../assets/presentacion/foto-inicio.webp'
+import fotoAbogadoc from '../../assets/presentacion/imagen-abogadoc-promocional.png'
 
 export const NavbarPC = () => {
     return (
@@ -69,7 +69,7 @@ export const NavbarPC = () => {
                     </section>
                     <section className='hero-text-content-right'>
                         <p className='description'>
-                            <img className='foto-inicio' src={fotoInicio} loading='lazy' alt="imagen ilustrativa de mateando código" />
+                            <img className='foto-inicio' src={fotoAbogadoc} loading='lazy' alt="imagen ilustrativa de mateando código" />
                             
              
 

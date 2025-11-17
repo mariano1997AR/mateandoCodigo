@@ -50,12 +50,12 @@
 .titulo-presentacionsitio {
     margin-left: 200px;
     margin-top: 100px;
-    
+
 }
 
 .parrafo-presentacionsitio {
     margin-left: 250px;
-   
+
 }
 
 /* Caracteristica de construcciones martinotti*/
@@ -83,12 +83,18 @@
 }
 
 .cards {
-    width: 100px;
-    margin: 10px;
+    width: 300px;
+    height: 300px;
+
     text-align: center;
     line-height: 75px;
     font-size: 30px;
 
+
+}
+
+.imagen-promocional {
+    border-radius: 5px;
 }
 
 
@@ -187,7 +193,7 @@
 
 .subtitulo-mas-funcionalidades {
     font-size: 1.4em;
-    margin-top: 150px;
+
     color: #043915;
 }
 
@@ -367,15 +373,15 @@
 }
 
 .container-photo:hover .overlay {
-  bottom: 0;
-  height: 100%;
+    bottom: 0;
+    height: 100%;
 }
 
 
 .overlay {
     position: absolute;
     bottom: 100%;
-    left:150px;
+    left: 150px;
     right: 0;
     background-color: #2D3250;
     overflow: hidden;
@@ -394,25 +400,26 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
-.img{
+
+.img {
     margin-left: 150px;
     width: 100%;
     height: auto;
-    
+
 }
 
 /* sector de contactar*/
-.container-contactar{
-      display: flex;
+.container-contactar {
+    display: flex;
     flex-direction: row;
     margin-top: 100px;
 }
 
-.item-left-contactar{
+.item-left-contactar {
     flex: 50%;
 }
 
-.item-right-contactar{
+.item-right-contactar {
     flex: 50%;
 }
 
@@ -524,19 +531,20 @@
     .svg-image {
         margin-left: 110px;
     }
-    
-    .container-nosotros-marca{
+
+    .container-nosotros-marca {
         flex-direction: column;
     }
 
-    .img{
+    .img {
         width: 100%;
         height: auto;
         margin-left: 120px;
-        
-        
+
+
     }
-    .text{
+
+    .text {
         font-size: 0.7em;
     }
 
@@ -544,10 +552,29 @@
         margin-left: -30px;
     }
 
+    .cards {
+        width: 300px;
+        height: 300px;
+
+        margin:10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+
+
+    }
+
+
 
 
 }
 
-.titulo-version-mobile{
+.titulo-version-mobile {
     color: #043915;
+}
+
+.imagen-promocional {
+    width: 500px;
+    margin-left: 20px;
+
 }

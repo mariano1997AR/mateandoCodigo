@@ -10,7 +10,7 @@ export const NavbarPhone = () => {
                 <section className='logo-responsive '>
 
                     <Link className="a-logo mx-5 py-2 " to="/inicio">
-                        Mateando<span className='etiqueta-codigo'> Código</span>
+                        <span className='color-logo'>Mateando <b>Código</b></span>
                     </Link>
                     {/* svg-logo */}
 
@@ -21,7 +21,7 @@ export const NavbarPhone = () => {
                             Created by potrace 1.16, written by Peter Selinger 2001-2019
                         </metadata>
                         <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                            fill="#000000" stroke="none">
+                            fill="#fff" stroke="none">
                             <path d="M871 4530 c-12 -44 -20 -84 -17 -88 2 -4 137 -59 299 -122 l296 -115
 6 -35 c11 -59 51 -109 109 -136 l52 -24 102 -219 c56 -121 102 -222 102 -224
 0 -3 -29 -21 -64 -41 -81 -45 -171 -127 -199 -180 -28 -55 -29 -146 -2 -201
@@ -47,18 +47,31 @@ export const NavbarPhone = () => {
 
 
                 <input type="checkbox" id="menu-toggle" className="menu-toggle" />
-                <label htmlFor="menu-toggle" className="menu-button py-2">☰</label>
+                <label htmlFor="menu-toggle" className="menu-button  ">☰</label>
 
                 <ul className="menu py-1" >
 
                     <li><a href="https://wa.me/5491133550437" target='_blank' className='a'>Agenda</a></li>
-                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#servicios" className='a'>Servicios</a></li>
                     <li><a href="#contacto" className='a'>Contacto</a></li>
-                 
+
 
 
 
                 </ul>
+                <div className="wave-navbar-phone">
+
+
+
+                    <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            fill="#222831"
+                            d="M0 0H1440V80C960 120 480 120 0 80Z"
+
+                        />
+                    </svg>
+
+                </div>
 
             </nav>
 
