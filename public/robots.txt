@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://mateando-codigo.vercel.app/sitemap.xml
