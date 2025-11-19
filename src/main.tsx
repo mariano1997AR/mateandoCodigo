@@ -12,15 +12,13 @@ const router = createBrowserRouter([
     element:<Layout />,
     children:[
         { index:true, element:<Inicio /> },
-        {path:'inicio', element:<Inicio /> },
+        {path:'/inicio', element:<Inicio /> },
         {path:'terminos-y-condiciones', element:<TerminosCondiciones />}
     ]
 
  },
 
-],{
-    basename: '/'
-}
+]
 )
 
 
