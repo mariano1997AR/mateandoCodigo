@@ -10,7 +10,7 @@ export const NavbarPhone = () => {
                 <section className='logo-responsive '>
 
                     <Link className="a-logo mx-5 py-2 " to="/inicio">
-                        <span className='color-logo'>Mateando <b>Código</b></span>
+                        <h1 className='color-logo'>Mateando <b>Código</b></h1>
                     </Link>
                     {/* svg-logo */}
 
@@ -52,8 +52,10 @@ export const NavbarPhone = () => {
                 <ul className="menu py-1" >
 
                     <li><a href="https://wa.me/5491133550437" target='_blank' className='a'>Agenda</a></li>
-                    <li><a href="#servicios" className='a'>Servicios</a></li>
+                    <li><Link className='a' to='/portfolio'>Portfolio</Link></li>
+                    <li><Link className='a' to='/servicios'>Servicios</Link></li>
                     <li><a href="#contacto" className='a'>Contacto</a></li>
+                   
 
 
 

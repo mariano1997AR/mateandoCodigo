@@ -78,14 +78,15 @@
 .container-card-caracteristica {
     display: flex;
     justify-content: space-around;
-    margin-right: 300px;
+  /*  margin-left: 50px;*/
+    
 
 }
 
 .cards {
     width: 300px;
     height: 300px;
-
+ 
     text-align: center;
     line-height: 75px;
     font-size: 30px;
@@ -105,6 +106,14 @@
     margin: 0 auto;
     font-size: 0.6em;
 
+}
+
+.lista-automatizada{
+     width: 340px;
+    text-align: center;
+
+    margin: 0 auto;
+    font-size: 0.6em;
 }
 
 .svg-container {
@@ -577,4 +586,35 @@
     width: 500px;
     margin-left: 20px;
 
+}
+
+.container-info-mateandocodigo{
+    display: flex;
+    flex-direction: row;
+}
+
+.item-left-container-inicio{
+    flex: 50%;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.item-right-container-inicio{
+    flex: 50%;
+    margin-top: 80px;
+}
+.svg-negocios{
+    margin-left: 100px;
+}
+
+
+@media (max-width: 767px) {
+    .container-info-mateandocodigo{
+        flex-direction: column;
+    }
+    .container-card-caracteristica{
+        margin-left: 50px;
+    }
 }

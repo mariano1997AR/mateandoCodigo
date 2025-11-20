@@ -11,7 +11,7 @@ export const NavbarPC = () => {
                 {/* Logo de la empresa */}
                 <div className="logo py-4">
                     <Link className='mx-2 ' to='/'>
-                        Mateando <b> Codigo</b>
+                       <h1> Mateando <b> Codigo</b></h1>
                     </Link>
                     <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                         width="20.000000pt" height="20.000000pt" viewBox="0 0 512.000000 512.000000"
@@ -44,9 +44,9 @@ export const NavbarPC = () => {
                 </div>
                 <div>
                     <ul className='submenu'>
-                        <li className='py-4'><a className='a-link' href="#servicios">Servicios</a></li>
-                        <li className='py-4'><a className='a-link' href="#portfolio">Portfolio</a></li>
-                        <li className='py-4'><a className='a-link' href="#contacto">Contacto</a></li>
+                        <li className='py-4'><Link className='a-link' to='/servicios'>Servicios</Link></li>
+                        <li className='py-4'><Link className='a-link' to='/porfolio'>Porfolio</Link></li>
+                        <li className='py-4'><Link to='/contacto' className='a-link'>Contacto</Link></li>
 
 
                     </ul>

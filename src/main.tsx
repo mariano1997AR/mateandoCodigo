@@ -5,6 +5,10 @@ import { Inicio } from './pages/Inicio/Inicio.tsx'
 import {HeadProvider} from 'react-head';
 import { Layout } from './components/Layout/Layout.tsx';
 import { TerminosCondiciones } from './pages/TerminosCondiciones/TerminosCondiciones.tsx';
+import { Portfolio } from './pages/Portfolio/Portfolio.tsx';
+import { Servicios } from './pages/Servicios/Servicios.tsx';
+import { Contacto } from './pages/Contacto/Contacto.tsx';
+
 
 
 const router = createBrowserRouter([
@@ -14,6 +18,9 @@ const router = createBrowserRouter([
     children:[
         { index:true, element:<Inicio /> },
         {path:'inicio', element:<Inicio /> },
+        {path:'porfolio',element:<Portfolio />},
+        {path:'servicios',element:<Servicios />},
+        {path:'contacto',element:<Contacto />},
         {path:'terminos-y-condiciones', element:<TerminosCondiciones />}
     ]
   
