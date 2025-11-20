@@ -1,6 +1,6 @@
 .menu-container {
     position: relative;
-    
+
     
      background-color: #222831;
      padding-bottom: 70px;
@@ -67,12 +67,12 @@
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.3s ease;
-        margin-bottom: 10px;
+     
 
     }
 
     .menu-toggle:checked+.menu-button+.menu {
-        max-height: 900px;
+        max-height:1200px;
         /* Ajustar según número de links */
 
 
@@ -94,7 +94,7 @@
 
     .switch-responsive {
         display: flex;
-        margin-left: 2px;
+     
         position: relative;
         padding-top: 14px;
         padding-right: 3px;

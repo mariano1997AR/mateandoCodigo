@@ -52,28 +52,17 @@ export const NavbarPhone = () => {
                 <ul className="menu py-1" >
 
                     <li><a href="https://wa.me/5491133550437" target='_blank' className='a'>Agenda</a></li>
-                    <li><Link className='a' to='/portfolio'>Portfolio</Link></li>
+                 
+                    <li><Link className='a' to='/porfolio'>Portfolio</Link></li>
                     <li><Link className='a' to='/servicios'>Servicios</Link></li>
-                    <li><a href="#contacto" className='a'>Contacto</a></li>
+                    <li><Link to='/contacto' className='a'>Contacto</Link></li>
                    
 
 
 
 
                 </ul>
-                <div className="wave-navbar-phone">
-
-
-
-                    <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            fill="#222831"
-                            d="M0 0H1440V80C960 120 480 120 0 80Z"
-
-                        />
-                    </svg>
-
-                </div>
+               
 
             </nav>
 

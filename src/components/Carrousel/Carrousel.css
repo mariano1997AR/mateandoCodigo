@@ -52,3 +52,12 @@
   width: 16px;
   height: 16px;
 }
+
+@media (max-width: 767px) {
+  .carousel-slide{
+    height: 300px;
+  }
+  .carousel-slide img{
+    object-fit: contain;
+  }
+}
